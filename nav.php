@@ -6,13 +6,13 @@
 					<a href="index.php"><img src="img/personal.jpg" alt="logo"></a>
                 </div>
                     <ul class="main-nav nav navbar-nav offset-by-two seven columns">
-						<li class="white-text"><a href="index.php">Home</a></li>
-						<li class="white-text"><a href="#">Offers</a></li>
-						<li class="white-text"><a href="Nearme.php">Near Me</a></li>
-						<li class="white-text"><a href="contactus.php">About Us</a></li>
+			<li class="white-text"><a href="index.php">Home</a></li>
+			<li class="white-text"><a href="#">Offers</a></li>
+			<li class="white-text"><a href="Nearme.php">Near Me</a></li>
+			<li class="white-text"><a href="contactus.php">About Us</a></li>
                     </ul>
                     <ul class="cta-nav two">
-				    <li><a href="#" class="main-button"><i class="fas fa-lock"></i>&nbsp;&nbsp;Register</a></li>
+			 <li><a href="#" class="main-button"><i class="fas fa-lock"></i>&nbsp;&nbsp;Register</a></li>
                     </ul>
                     
                 </div>
