@@ -17,7 +17,7 @@ body {
   font-family: Raleway;
   padding: 40px;
   width: 70%;
-  min-width: 300px;
+  min-width: 700px;
 }
 
 h1 {
@@ -39,7 +39,7 @@ input.invalid {
 
 /* Hide all steps by default: */
 .tab {
-  display: none;
+  display:none;
 }
 
 button {
@@ -80,6 +80,228 @@ button:hover {
 .step.finish {
   background-color: #4CAF50;
 }
+    
+@media (max-width: 768px)
+.login-modal-div {
+    padding-top: 30px;
+}
+.login-modal-div {
+    font-family: 'RobotoDraft', 'Roboto', 'Helvetica Neue, Helvetica, Arial', sans-serif;
+    position: fixed;
+    z-index: 1000;
+    padding-top: 70px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+    @media (max-width: 768px)
+.login-modal-div .modal-content {
+    width: 90%;
+}
+
+.login-modal-div .modal-content {
+    background-color: #eff1f3;
+    margin: auto;
+    padding-top: 20px;
+    border: 1px solid #888;
+    width: 100%;
+    border-radius: 5px;
+}
+@media (max-width: 600px)
+.modal-content {
+    padding: 10px;
+    width: 75%;
+}
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%;
+    }
+ 
+    .login-modal-div .center {
+    text-align: center;
+}
+    
+    .main-button1 {
+	display:inline-block;
+    width: 10%;
+    margin-bottom:0%;
+	padding:10px 20px;
+	border:none;
+	background-color:green;
+	color:#FFF;
+	text-transform: uppercase;
+	font-weight: 700;
+	-webkit-transition:0.2s opacity;
+	transition:0.2s opacity;
+}
+
+.login-modal-div .modal-header {
+    padding: 20px;
+    border-radius: 5px;
+}
+.login-modal-div .white-bg {
+    background-color: #fff;
+}
+    
+    .login-modal-div .modal-header input:checked + label.tab-label {
+    color: #555;
+    border: 1px solid #ddd;
+    border-top: 2px solid #0f9d58;
+    border-bottom: 3px solid #fff;
+    background-color: #fff;
+}
+    
+    
+
+@media screen and (max-width: 400px)
+.login-modal-div .modal-header .tab-label {
+    padding: 15px;
+}
+
+.login-modal-div .modal-header label:hover {
+    color: #888;
+    cursor: pointer;
+}
+.login-modal-div .modal-header label.tab-label {
+    display: inline-block;
+    margin: 0 0 -1px;
+    padding: 15px 25px;
+    font-weight: 600;
+    text-align: center;
+    color: #888;
+    border: 1px solid transparent;
+    width: 20%;
+    padding-bottom: 12px;
+    font-size: 20px;
+    border-bottom-width: 4px;
+    background-color: #e9ebee;
+}
+    
+.login-modal-div .modal-form-group .tab-label1 {
+    padding: 15px;
+}
+.login-modal-div .modal-form-group label:hover {
+    color: grey;
+    border-color: greenyellow;
+    cursor: pointer;
+}
+.login-modal-div .modal-header label.tab-label1{
+    display: inline-block;
+    margin: 0 0 -1px;
+    margin: 1%;
+    padding: 15px 25px;
+    font-weight: 600;
+    text-align: center;
+    color: #888;
+    border: 1px solid green;
+    width: 15%;
+    padding-bottom: 12px;
+    font-size: 14px;
+    border-bottom-width: 2px;
+    background-color: #e9ebee;
+}    
+    
+.login-modal-div .modal-form-group input:checked + label.tab-label1 {
+    color: #555;
+    border: 1px solid #ddd;
+    border-top: 2px solid #0f9d58;
+    border-bottom: 3px solid #fff;
+    background-color: #fff;
+}    
+    
+    
+.login-modal-div .modal-header .tab-label2 {
+    padding: 5px;
+    font-weight: 200;
+    margin: 1%;
+    text-align: center;
+    color:darkorange;
+    border: 1px solid green;
+    width: 7%;
+    font-size: 14px;
+    background-color: transparent;
+}
+.login-modal-div .modal-header label:hover{
+    color: grey;
+    border-color:green;
+    cursor: pointer;
+}
+ 
+    
+ .login-modal-div .modal-header input:checked + label.tab-label2 {
+    color: #555;
+    border: 1px solid #0f9d56;
+    border-top: 3px solid #0f9d58;
+    border-bottom: 3px solid #0f9d58;
+    background-color: #fff;
+}    
+   
+
+    
+
+    
+    input[type="radio"], input[type="file"], input[type="hidden"], input[type="image"], input[type="color"] {
+    border: 0;
+    border-radius: 0;
+    padding: 0;
+}
+
+.login-modal-div .modal-header input[type=radio] {
+    display: none;
+}    
+ 
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+input[type="radio" i] {
+    margin: 3px 3px 0px 5px;
+}
+user agent stylesheet
+input[type="radio" i] {
+    -webkit-appearance: radio;
+    box-sizing: border-box;
+}
+user agent stylesheet
+input[type="radio" i], input[type="checkbox" i] {
+    background-color: initial;
+    cursor: default;
+    margin: 3px 0.5ex;
+    padding: initial;
+    border: initial;
+}
+
+    
+    .login-modal-div .modal-header #tab1:checked ~ #content1, .login-modal-div .modal-header #tab2:checked ~ #content2 ,  .login-modal-div .modal-header #tab3:checked ~ #content3,  .login-modal-div .modal-header #tab4:checked ~ #content4 {
+    display: block;
+}
+    
+    .login-modal-div .modal-header #z1:checked ~ #content11, .login-modal-div .modal-header #z2:checked ~ #content12 ,  .login-modal-div .modal-header #z3:checked ~ #content13,  .login-modal-div .modal-header #z4:checked ~ #content14, .login-modal-div .modal-header #z5:checked ~ #content15, .login-modal-div .modal-header #z6:checked ~ #content16 ,  .login-modal-div .modal-header #z7:checked ~ #content17,  .login-modal-div .modal-header #z8:checked ~ #content18 , .login-modal-div .modal-header #z9:checked ~ #content19, .login-modal-div .modal-header #z10:checked ~ #content20 ,  .login-modal-div .modal-header #z11:checked ~ #content21,  .login-modal-div .modal-header #z12:checked ~ #content22{
+    display: block;
+}
+    
+    
+.login-modal-div .modal-header section {
+    display: none;
+    padding: 20px 30px 30px 30px;
+    border: 1px solid #ddd;
+    border-bottom: none;
+}
+
+    .login-modal-div form {
+    margin-bottom: 14px;
+}    
+    
 </style>
 <body>
         
@@ -104,90 +326,95 @@ button:hover {
     
     
     
-<form id="regForm" method="post" action="#">
-                                <h3>Book a table</h3>
-                                <div class="tab">Table Info:
-                                <label><strong>Time:</strong></label>
-                                <select name="time">
-                                    <option value="5:00am">5:00 am</option>
-                                    <option value="5:30am">5:30 am</option>
-                                    <option value="6:00am">6:00 am</option>
-                                    <option value="6:30am">6:30 am</option>
-                                    <option value="7:00am">7:00 am</option>
-                                    <option value="7:30am">7:30 am</option>
-                                    <option value="8:00am">8:00 am</option>
-                                    <option value="8:30am">8:30 am</option>
-                                    <option value="9:00am">9:00 am</option>
-                                    <option value="9:30am">9:30 am</option>
-                                    <option value="10:00am">10:00 am</option>
-                                    <option value="10:30am">10:30 am</option>
-                                    <option value="11:00am">11:00 am</option>
-                                    <option value="11:30am">11:30 am</option>
-                                    <option value="12:00pm">12:00 pm</option>
-                                    <option value="12:30pm">12:30 pm</option>
-                                    <option value="1:00pm">1:00 pm</option>
-                                    <option value="1:30pm">1:30 pm</option>
-                                    <option value="2:00pm">2:00 pm</option>
-                                    <option value="2:30pm">2:30 pm</option>
-                                    <option value="3:00pm">3:00 pm</option>
-                                    <option value="3:30pm">3:30 pm</option>
-                                    <option value="4:00pm">4:00 pm</option>
-                                    <option value="4:30pm">4:30 pm</option>
-                                    <option value="5:00pm">5:00 pm</option>
-                                    <option value="5:30pm">5:30 pm</option>
-                                    <option value="6:00pm">6:00 pm</option>
-                                    <option value="6:30pm">6:30 pm</option>
-                                    <option value="7:00pm">7:00 pm</option>
-                                    <option value="7:30pm">7:30 pm</option>
-                                    <option value="8:00pm">8:00 pm</option>
-                                    <option value="8:30pm">8:30 pm</option>
-                                    <option value="9:00pm">9:00 pm</option>
-                                    <option value="9:30pm">9:30 pm</option>
-                                    <option value="10:00pm">10:00 pm</option>
-                                    <option value="10:30pm">10:30 pm</option>
-                                    <option value="11:00pm">11:00 pm</option>
-                                    <option value="11:30pm">11:30 pm</option>
-                                </select>
-                                </div>
-                                <div class="tab">Table Info:
-                                <label><strong>Members:</strong></label>
-                                <select name="members">
-                                    <option value="2 Peoples">2 Peoples</option>
-                                    <option value="3 Peoples">3 Peoples</option>
-                                    <option value="4 Peoples">4 Peoples</option>
-                                    <option value="5 Peoples">5 Peoples</option>
-                                    <option value="6 Peoples">7 Peoples</option>
-                                    <option value="6 Peoples">8 Peoples</option>
-                                    <option value="6 Peoples">9 Peoples</option>
-                                    <option value="6 Peoples">10+ Peoples</option>
-                                    
-                                </select>
-                            </div>  
-                             <div class="tab">Contact Info:
-                                <p><input type="email" placeholder="E-mail..." name="email"></p>
-                                 <span class="input-group-addon"><i class="fa fa-envelope" style="color:#0CF;"></i></span>
-                                <p><input type="number" placeholder="Phone..."  name="mobile"></p>
-                                <span class="input-group-addon"><i class="fa fa-mobile" style="color:#0CF;"></i></span>
-                              </div> 
-                             <div class="tab">Login Info:
-                                <p><input type="text" placeholder="Username..." name="uname"></p>
-                                  <span class="input-group-addon"><i class="fa fa-user" style="color:#0CF;"></i></span>
-                                <p><input type="password" placeholder="Password..." name="pword" type="password"></p>
-                              </div>
-                                 <div style="overflow:auto;">
-                                        <div style="float:right;">
-                                          <button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
-                                            <input type="submit" name="submit" id="SubmitBtn">
-                                        </div>
-                                </div>
+<form id="regForm" method="post" action="#">   
+<div class="tab">
+
+ <button type="button" id="nextBtn" onclick="nextPrev(1)" class="main-button1">Next</button>
+</div>
+<div class="tab">                               
+<div class="login-modal-div" style="display: block;">
+  <div class="modal-content">
+    <div class="white-bg center modal-header">
+      <form class="login-register-div" method="post">
+            <input type="radio" name="tabs2" value="1" id="z1">
+            <label class="tab-label2" for="z1">1</label>
+            <input type="radio" name="tabs2" value="2" id="z2">
+            <label class="tab-label2" for="z2">2</label>
+            <input type="radio" name="tabs2" value="3" id="z3">
+            <label class="tab-label2" for="z3">3</label>
+            <input type="radio" name="tabs2" value="4" id="z4">
+            <label class="tab-label2" for="z4">4</label>
+            <input type="radio" name="tabs2" value="5" id="z5">
+            <label class="tab-label2" for="z5">5</label>
+            <input type="radio" name="tabs2" value="6" id="z6">
+            <label class="tab-label2" for="z6">6</label>
+            <input type="radio" name="tabs2" value="7" id="z7">
+            <label class="tab-label2" for="z7">7</label>
+            <input type="radio" name="tabs2" value="8" id="z8">
+            <label class="tab-label2" for="z8">8</label>
+            <input type="radio" name="tabs2" value="10" id="z9">
+            <label class="tab-label2" for="z9">10</label>
+            <input type="radio" name="tabs2" value="12+" id="z10">
+            <label class="tab-label2" for="z10">12+</label>
+            <input type="radio" name="tabs2" value="15+" id="z11">
+            <label class="tab-label2" for="z11">15+</label>
+            <input type="radio" name="tabs2" value="20+" id="z12">
+            <label class="tab-label2" for="z12">20+</label>
+<br>
+<br>
+<br>
+        <section id="content11">
+          <form method="POST" id="morning">
+            <div class="modal-form-group">
+                 <a href="https://www.flaticon.com/authors/catkuro" title="catkuro"><a href="https://www.flaticon.com/" title="Flaticon"><img src="img/table.svg" width="25%" height="25%" /></a></a> 
+                            
+              </div>
+           <br>
+              
+            <?php
+                  $members=$_POST['tabs1'];
+              ?>
+          </form>
+        </section>
+        <section id="content2">
+          <form method="POST" id="afternoon">
+            <div class="modal-form-group">  
+            </div>
+           <br>              
+          </form>
+        </section>
+          <section id="content3">
+          <form method="POST" id="evening">
+            <div class="modal-form-group">
+                
+            </div>
+           <br>
+              </form>
+        </section>
+        <section id="content4">
+          <form method="POST" id="night">
+            <div class="modal-form-group">
+            </div>
+           <br>
+          </form>
+        </section>
+        </form>
+      </div>
+  </div>
+</div>
+</div>  
+      <div style="overflow:auto;">
+        <div style="float:right;">
+          
+            <input type="submit" name="submit" id="SubmitBtn">
+            </div>
+        </div>
                                 
-                        <div style="text-align:center;margin-top:40px;">
-                            <span class="step"></span>
-                            <span class="step"></span>
-                            <span class="step"></span>
-                            <span class="step"></span>
-                          </div>
-            </form>
+     <div style="text-align:center;margin-top:40px;">
+        <span class="step"></span>
+            <span class="step"></span>
+    </div>
+</form>
 
 <script>
     

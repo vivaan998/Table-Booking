@@ -3,16 +3,16 @@
 				<div class="row twelve columns">
 
 				<div class="logo two columns">
-					<a href="index.php"><img src="img/personal.jpg" alt="logo"></a>
+					<a href="index.php"><img src="images/logo.png" alt="logo"></a>
                 </div>
                     <ul class="main-nav nav navbar-nav offset-by-two seven columns">
-						<li class="white-text"><a href="index.php">Home</a></li>
-						<li class="white-text"><a href="#">Offers</a></li>
-						<li class="white-text"><a href="Nearme.php">Near Me</a></li>
-						<li class="white-text"><a href="contactus.php">About Us</a></li>
+						<li class="white-text"><a href="index.php"><h5>Home</h5></a></li>
+                        <li class="white-text"><a href="#"><h5>Offers</h5></a></li>
+                        <li class="white-text"><a href="Nearme.php"><h5>Near Me</h5></a></li>
+                        <li class="white-text"><a href="contactus.php"><h5>About Us</h5></a></li>
                     </ul>
                     <ul class="cta-nav two">
-				    <li><a href="#" class="main-button"><i class="fas fa-lock"></i>&nbsp;&nbsp;Register</a></li>
+				    <li><a href="Register.php" class="main-button"><i class="fas fa-lock"></i>&nbsp;&nbsp;Register</a></li>
                     </ul>
                     
                 </div>
@@ -31,7 +31,7 @@
 					<div class="home-content">
 						<h1 class="white-text">Welcome To Table Booking</h1>
 						<h3 class="white-text lead">No need to Wait.<br> Book your table by sitting at your home with no extra charge. </h3>
-						<button class="main-button">Book Now?</button>
+						<button class="main-button"><a href="Nearme.php">Book Now?</a></button>
 					</div>
                     <br>
                     <br>

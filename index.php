@@ -12,6 +12,7 @@
     
     
    <body>
+       <!-- <div class="loader"><img src="images/loading.gif" alt="" /></div>-->
        <?php
        include('nav.php');
        ?>
@@ -47,10 +48,10 @@
                  <div role="tabpanel" class="tab-pane">
                     <div class="item">
                      <div class="hovereffect">
-                         <img src="img/footerbg.jpg" class="img-responsive" style="width:100%;" />
+                         <img src="images/abtbg.jpg" class="img-responsive" style="width:100%;" />
                          <div class="overlay">
-                             <h2>Drunken Shrimp</h2>
-                             <p><a href="#">CLICK HERE</a></p> 
+                             <h2>Laal Mirchi</h2>
+                             <p><a href="Nearme.php">Restaurants</a></p> 
                          </div>
                      </div>
                  </div>
@@ -62,7 +63,7 @@
                  <div class="hovereffect">
                      <img src="img/image01.jpg" class="img-responsive" style="width:100%;" />
                      <div class="overlay">
-                         <h2>Cream Puffs</h2>
+                         <h2>Cafe Barraco</h2>
                          <p><a href="#">CLICK HERE</a></p> 
                      </div>
                  </div>
@@ -73,28 +74,15 @@
          <div role="tabpanel" class="tab-pane">
           <div class="item">
              <div class="hovereffect">
-                 <img src="img/image07.jpg" class="img-responsive" style="width:100%;" />
+                 <img src="images/as.jpg" class="img-responsive" style="width:100%;" />
                  <div class="overlay">
-                     <h2>Indian Naan</h2>
-                     <p><a href="#">CLICK HERE</a></p> 
+                     <h2>Foodista</h2>
+                     <p><a href="view1.php">CLICK HERE</a></p> 
                  </div>
              </div>
          </div>
      </div>
  </div>
- <div class="col-sm-3 grid-item">
-     <div role="tabpanel" class="tab-pane">
-      <div class="item">
-         <div class="hovereffect">
-             <img src="img/image05.jpg" class="img-responsive" style="width:100%;" />
-             <div class="overlay">
-                 <h2>Chicken Scallopini</h2>
-                 <p><a href="#">CLICK HERE</a></p> 
-             </div>
-         </div>
-     </div>
- </div>
-</div>
 </div>
  </div>
        <div class="tab-content" style="margin-top:2%;margin-bottom: 2%">
@@ -103,10 +91,10 @@
                  <div role="tabpanel" class="tab-pane">
                     <div class="item">
                      <div class="hovereffect">
-                         <img src="img/footerbg.jpg" class="img-responsive" style="width:100%;" />
+                         <img src="images/dd.webp" class="img-responsive" style="width:100%;" />
                          <div class="overlay">
-                             <h2>Drunken Shrimp</h2>
-                             <p><a href="#">CLICK HERE</a></p> 
+                             <h2>Domino's Pizza</h2>
+                             <p><a href="view.php">CLICK HERE</a></p> 
                          </div>
                      </div>
                  </div>
@@ -116,9 +104,9 @@
              <div role="tabpanel" class="tab-pane">
               <div class="item">
                  <div class="hovereffect">
-                     <img src="img/image01.jpg" class="img-responsive" style="width:100%;" />
+                     <img src="images/newsthree.jpg" class="img-responsive" style="width:100%;" />
                      <div class="overlay">
-                         <h2>Cream Puffs</h2>
+                         <h2>Secret Kitchen</h2>
                          <p><a href="#">CLICK HERE</a></p> 
                      </div>
                  </div>
@@ -129,28 +117,15 @@
          <div role="tabpanel" class="tab-pane">
           <div class="item">
              <div class="hovereffect">
-                 <img src="img/image07.jpg" class="img-responsive" style="width:100%;" />
+                 <img src="images/restaurant-449952__340.jpg" class="img-responsive" style="width:100%;" />
                  <div class="overlay">
-                     <h2>Indian Naan</h2>
+                     <h2>Sky Dine</h2>
                      <p><a href="#">CLICK HERE</a></p> 
                  </div>
              </div>
          </div>
      </div>
  </div>
- <div class="col-sm-3 grid-item">
-     <div role="tabpanel" class="tab-pane">
-      <div class="item">
-         <div class="hovereffect">
-             <img src="img/image05.jpg" class="img-responsive" style="width:100%;" />
-             <div class="overlay">
-                 <h2>Chicken Scallopini</h2>
-                 <p><a href="#">CLICK HERE</a></p> 
-             </div>
-         </div>
-     </div>
- </div>
-</div>
 </div>
 </div>
 </div>

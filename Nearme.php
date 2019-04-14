@@ -15,47 +15,139 @@
         <?php
        include('nav.php');
        ?>
-    
-     <div class="row" style="border: 0px;margin-left: 14%">
-            <div class="col-sm-4 grid-item" style="border: 1px;margin:2%">
-                <div class="csi-rest five columns" style="background-image:url(img/image04.jpg)" >
+        
+        <div class="row" style="border: 0px;margin-left: 8%;margin-bottom:3%">
+            <?php
+            $i=1;
+            ?>
+            <div class="col-md-5 grid-item" style="border: 1%;margin-top:17.5%">
+                <div class="csi-rest six columns" style="background-image:url(img/download.jpg)" >
                 </div> 
+                <?php
+                 $con = new mysqli("localhost","root","","my-website");
+            
+                if (!$con) {
+                die("Connection failed: " . mysqli_connect_error());
+                }
+            $sql ="SELECT * FROM `restaurant-list` WHERE `serial`=$i";
+            
+                $result = mysqli_query($con, $sql) or die("could not perform query");
+                
+                while($row = mysqli_fetch_assoc($result))
+                {
+                        $name=$row['Name'];
+                        $Cousines=$row['Cousines'];
+                        $about=$row['About'];
+                        $contact=$row['Contact'];; 
+                }
+                ?>
                 <div class="Black-text six columns">
-                <a href="#"><p class="Red-text" style="margin-left: 10%"><strong>Swad Restaurant</strong></p></a>
-                <p>chinees,Punjabi,Gujarati</p>
-                <span>Average Cost..7&#36; for Two</span>&nbsp;
-                <span class="offset-by-six columns"><button class="main-button1"><a href="form.php">Book Now?</a></button></span>
-                 </div>
+                <a href="#"><p class="Red-text offset-by-one columns"><strong>
+                    <?php
+                    echo $name;
+                    ?>
+                    </strong></p></a>
+                <?php
+                    echo"<p>" . $Cousines . "</p>";
+                    ?>
+                <?php
+                    echo"<p>" . $about . "</p>";
+                ?>
+                <br>
+                <?php
+                    echo"<p>" . "Contact : " . $contact . "</p>";
+                ?>
+                    <a href="view.php"><button class="main-button1" style="float:right;margin-bottom:0%;">View</button></a>
+                </div>
             </div>
-            <div class="col-sm-4 grid-item" style="border: 1px;margin:2%">
-                <div class="csi-rest five columns" style="background-image:url(img/image04.jpg)" >
+            <?php
+            $i++;
+            ?>
+            <div class="col-md-5 grid-item" style="border: 1%;">
+                <div class="csi-rest six columns" style="background-image:url(img/image04.jpg)" >
                 </div> 
+                <?php
+                 $con = new mysqli("localhost","root","","my-website");
+            
+                if (!$con) {
+                die("Connection failed: " . mysqli_connect_error());
+                }
+            $sql ="SELECT * FROM `restaurant-list` WHERE `serial`=$i";
+            
+                $result = mysqli_query($con, $sql) or die("could not perform query");
+                
+                while($row = mysqli_fetch_assoc($result))
+                {
+                        $name=$row['Name'];
+                        $Cousines=$row['Cousines'];
+                        $about=$row['About'];
+                        $contact=$row['Contact'];; 
+                }
+                ?>
                 <div class="Black-text six columns">
-                <a href="#"><p class="Red-text" style="margin-left: 10%"><strong>Swad Restaurant</strong></p></a>
-                <p>chinees,Punjabi,Gujarati</p>
-                <span>Average Cost..7&#36; for Two</span>&nbsp;
-                <span class="offset-by-six columns"><button class="main-button1"><a href="form.php">Book Now?</a></button></span>
-                 </div>
+                <a href="#"><p class="Red-text offset-by-one columns"><strong>
+                    <?php
+                    echo $name;
+                    ?>
+                    </strong></p></a>
+                <?php
+                    echo"<p>" . $Cousines . "</p>";
+                    ?>
+                <?php
+                    echo"<p>" . $about . "</p>";
+                ?>
+                <br>
+                <?php
+                    echo"<p>" . "Contact : " . $contact . "</p>";
+                ?>
+                    <a href="view.php"><button class="main-button1" style="float:right;margin-bottom:0%;">View</button></a>
+                </div>
             </div>
-            <div class="col-sm-4 grid-item" style="border: 1px;margin:2%">
-                <div class="csi-rest five columns" style="background-image:url(img/image04.jpg)" >
+            <?php
+            $i++;
+            ?>
+            <?php
+            $i++;
+            ?>
+            <div class="col-md-5 grid-item" style="border: 1%;margin-left:5%;magin-top:4%">
+                <div class="csi-rest six columns" style="background-image:url(img/image06.jpg)" >
                 </div> 
+                <?php
+                 $con = new mysqli("localhost","root","","my-website");
+            
+                if (!$con) {
+                die("Connection failed: " . mysqli_connect_error());
+                }
+            $sql ="SELECT * FROM `restaurant-list` WHERE `serial`=$i";
+            
+                $result = mysqli_query($con, $sql) or die("could not perform query");
+                
+                while($row = mysqli_fetch_assoc($result))
+                {
+                        $name=$row['Name'];
+                        $Cousines=$row['Cousines'];
+                        $about=$row['About'];
+                        $contact=$row['Contact'];; 
+                }
+                ?>
                 <div class="Black-text six columns">
-                <a href="#"><p class="Red-text" style="margin-left: 10%"><strong>Swad Restaurant</strong></p></a>
-                <p>chinees,Punjabi,Gujarati</p>
-                <span>Average Cost..7&#36; for Two</span>&nbsp;
-                <span class="offset-by-six columns"><button class="main-button1"><a href="form.php">Book Now?</a></button></span>
-                 </div>
-            </div>
-            <div class="col-sm-4 grid-item" style="border: 1px;margin:2%">
-                <div class="csi-rest five columns" style="background-image:url(img/image04.jpg)" >
-                </div> 
-                <div class="Black-text six columns">
-                <a href="#"><p class="Red-text" style="margin-left: 10%"><strong>Swad Restaurant</strong></p></a>
-                <p>chinees,Punjabi,Gujarati</p>
-                <span>Average Cost..7&#36; for Two</span>&nbsp;
-                <span class="offset-by-six columns"><button class="main-button1"><a href="form.php">Book Now?</a></button></span>
-                 </div>
+                <a href="#"><p class="Red-text offset-by-one columns"><strong>
+                    <?php
+                    echo $name;
+                    ?>
+                    </strong></p></a>
+                <?php
+                    echo"<p>" . $Cousines . "</p>";
+                    ?>
+                <?php
+                    echo"<p>" . $about . "</p>";
+                ?>
+                <br>
+                <?php
+                    echo"<p>" . "Contact : " . $contact . "</p>";
+                ?>
+                    <a href="view.php"><button class="main-button1" style="float:right;margin-bottom:0%;">View</button></a>
+                </div>
             </div>
          
          

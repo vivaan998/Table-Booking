@@ -40,7 +40,7 @@
 				$email = $_POST['email'];
 				$mob = $_POST['mobile'];
 				$message = $_POST['message'];
-				$query = $db->query("INSERT INTO `contact`(`id`, `name`, `email`, `mobile`, `message`) VALUES ('','$name','$email','$mob','$message')") or die(mysqli_error());
+				$query = $db->query("INSERT INTO `feedback`(`id`, `Name`, `Email`, `Mobile`, `Message`) VALUES ('','$name','$email','$mob','$message')") or die(mysqli_error());
 				if($query){
 					echo "<script>alert('Thanks For your feedback');</script>";
 				}
